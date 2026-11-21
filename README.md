@@ -8,6 +8,8 @@ Google has no public API for reading Google Hotels or Google Flights results, an
 | ✈️ | [Google Flights Scraper & Fare Monitor](https://apify.com/xpandalabs/google-flights-fare-monitor) | $1 / 1,000 flights | Every flight on a route and date, or a cheapest-day fare calendar with Google's low/typical/high price level |
 | 📈 | [Google Trends Scraper & Monitor](https://apify.com/xpandalabs/google-trends-monitor) | $1.50 / 1,000 keywords, no start fee | Rising/falling verdict, interest over time, regions, rising and breakout searches, trending now |
 
+Dedicated repos with more examples: **[google-flights-api](https://github.com/bigxiong001-pixel/google-flights-api)** and **[google-trends-api](https://github.com/bigxiong001-pixel/google-trends-api)**.
+
 All three track changes between runs (price drops, new rising searches) and can return only what changed, so a daily schedule costs almost nothing when nothing moves.
 
 ## Quick start
