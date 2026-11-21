@@ -7,6 +7,7 @@ This repo shows how to get Google Hotels data as JSON anyway, through the **[Goo
 ## What you get
 
 - **Hotel prices for any destination**: up to 600 hotels per search (`hotels in Paris`, `4-star hotels in Shanghai`) with nightly and whole-stay price for your dates, guests and currency, star class, rating, reviews, coordinates and Google's deal labels.
+- **Amenities** for every hotel (free Wi-Fi, breakfast, parking, pool, spa, pet-friendly and more), yes/no columns, and a must-have filter: `"requiredAmenities": ["free_breakfast", "pool"]`. A hotel's own page adds the full grouped list.
 - **Every booking site's rate** for a hotel: the official site, Booking.com, Expedia, Agoda, Trip.com, Hotels.com and the rest Google lists (often 20–30), before and with tax.
 - **Rate parity**: the cheapest OTA vs the hotel's own website, with a `parityIssue` flag.
 - **Competitor rate shopping**: your hotel vs your competitors across up to 60 check-in dates, with price rank, gap to the competitor average and a rate grid.
@@ -20,6 +21,7 @@ This repo shows how to get Google Hotels data as JSON anyway, through the **[Goo
 | Example | What it does |
 |---|---|
 | [`examples/python/quickstart.py`](examples/python/quickstart.py) | Cheapest hotels in a city |
+| [`examples/python/hotels_with_amenities.py`](examples/python/hotels_with_amenities.py) | Hotels with free breakfast, a pool and a spa, cheapest first |
 | [`examples/python/competitor_rate_shop.py`](examples/python/competitor_rate_shop.py) | Your hotel vs competitors for 14 nights: price grid, rank, gap to average |
 | [`examples/python/rate_parity_check.py`](examples/python/rate_parity_check.py) | Flags OTAs selling cheaper than the hotel's own website |
 | [`examples/javascript/quickstart.mjs`](examples/javascript/quickstart.mjs) | Node.js version of the quick start |
@@ -53,6 +55,8 @@ One JSON row per hotel (and per check-in date when you check several dates). Rea
 | `name`, `stars`, `rating`, `reviewCount`, `latitude`, `longitude` | Hotel details |
 | `nightlyPrice`, `nightlyPriceWithTax`, `totalPrice`, `currency` | Nightly before tax, nightly with taxes and fees, whole stay with taxes and fees |
 | `checkIn`, `checkOut`, `nights` | Your stay |
+| `amenities`, `freeWifi`, `freeBreakfast`, `freeParking`, `pool`, `petFriendly` | Amenity list (`($)` = extra charge) and yes/no columns |
+| `amenityDetails` | The hotel page's full amenity list by group (Internet, Pools, Food & drink, …) |
 | `offers[]` | Each booking site: `site`, `isOfficialSite`, `nightlyBeforeTax`, `nightlyWithTax`, `bookingLink` |
 | `cheapestSite`, `cheapestNightly`, `officialSiteNightly` | Cheapest site and the hotel's own rate |
 | `lowestOtaVsOfficialPct`, `parityIssue` | Rate parity |

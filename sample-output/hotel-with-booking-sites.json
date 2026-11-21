@@ -20,6 +20,134 @@
   "googleHotelsUrl": "https://www.google.com/travel/hotels/entity/ChkInde6zbyor647Gg0vZy8xMWMxdmJkZGhoEAE",
   "website": "https://www.crownhotels.com.au/melbourne/crown-towers",
   "propertyType": "hotel",
+  "amenities": [
+    "Free Wi-Fi",
+    "Restaurant",
+    "Bar",
+    "Room service",
+    "Breakfast ($)",
+    "Full-service laundry",
+    "Parking",
+    "Airport shuttle",
+    "Kid-friendly",
+    "Pool",
+    "Indoor pool",
+    "Fitness center",
+    "Sauna",
+    "Spa",
+    "Business center"
+  ],
+  "freeWifi": true,
+  "freeBreakfast": false,
+  "freeParking": false,
+  "pool": true,
+  "petFriendly": false,
+  "amenityDetails": {
+    "Internet": [
+      "Wi-Fi (free)"
+    ],
+    "Policies & payments": [
+      "Credit cards",
+      "NFC mobile payments",
+      "Cash"
+    ],
+    "Activities": [
+      "Casino",
+      "Nightclub",
+      "Boutique shopping"
+    ],
+    "Children": [
+      "Kid-friendly"
+    ],
+    "Pools": [
+      "Pool",
+      "Indoor pool",
+      "No hot tub"
+    ],
+    "Wellness": [
+      "Fitness center",
+      "Elliptical machine",
+      "Treadmill",
+      "Weight machines",
+      "Free weights",
+      "Massage",
+      "Sauna",
+      "Spa",
+      "Hair salon"
+    ],
+    "Business & events": [
+      "Business center",
+      "Meeting rooms"
+    ],
+    "Languages spoken": [
+      "Arabic",
+      "English",
+      "Filipino",
+      "Portuguese",
+      "Spanish",
+      "Vietnamese"
+    ],
+    "Food & drink": [
+      "Restaurant",
+      "Bar",
+      "Buffet dinner",
+      "Room service (24 hour)",
+      "Breakfast (extra charge)",
+      "Breakfast buffet"
+    ],
+    "Services": [
+      "Front desk (24 hour)",
+      "Baggage storage",
+      "Concierge",
+      "Convenience store",
+      "Currency exchange",
+      "Full-service laundry",
+      "Elevator",
+      "Wake up calls",
+      "Housekeeping (daily)",
+      "Turndown service"
+    ],
+    "Parking & transportation": [
+      "Parking",
+      "Self parking",
+      "Valet parking",
+      "Airport shuttle (extra charge)",
+      "Private car service",
+      "Car rental onsite",
+      "Local shuttle"
+    ],
+    "Accessibility": [
+      "Accessible parking",
+      "Accessible elevator"
+    ],
+    "Pets": [
+      "No pets"
+    ],
+    "Rooms": [
+      "Air conditioning"
+    ],
+    "Energy efficiency": [
+      "Energy-efficient heating and cooling systems",
+      "Energy-efficient lighting",
+      "Energy-saving thermostats"
+    ],
+    "Waste reduction": [
+      "Recycling program",
+      "Composts excess food",
+      "Soap donation program",
+      "Safely handles hazardous substances",
+      "Safely disposes of electronics, batteries, and lightbulbs"
+    ],
+    "Water conservation": [
+      "Towel and linen reuse program"
+    ],
+    "Sustainable sourcing": [
+      "Responsible purchasing policy",
+      "Locally sourced food and beverages",
+      "Responsibly sourced seafood",
+      "Eco-friendly toiletries"
+    ]
+  },
   "nightlyPrice": 337.16,
   "nightlyPriceWithTax": 369,
   "nightlyPriceText": "$337",
