@@ -21,6 +21,7 @@
   "website": "https://www.crownhotels.com.au/melbourne/crown-towers",
   "propertyType": "hotel",
   "nightlyPrice": 337.16,
+  "nightlyPriceWithTax": 369,
   "nightlyPriceText": "$337",
   "totalPriceText": "$369",
   "nightlyPriceRounded": 337,

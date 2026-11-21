@@ -23,6 +23,7 @@
   "nightlyPriceText": "$282",
   "totalPriceText": "$310",
   "nightlyPrice": 281.62,
+  "nightlyPriceWithTax": 310,
   "nightlyPriceRounded": 282,
   "totalPrice": 310,
   "page": 1,
