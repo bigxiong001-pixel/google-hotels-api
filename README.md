@@ -102,6 +102,7 @@ AI assistants (Claude, ChatGPT, Cursor and others) can call the Actor as a tool 
 
 - [Google Flights API](https://github.com/bigxiong001-pixel/google-flights-api): flight prices, cheapest-day fare calendar, price alerts
 - [Google Trends API](https://github.com/bigxiong001-pixel/google-trends-api): rising and falling keywords, breakout searches, trending now
+- [Google Shopping API](https://github.com/bigxiong001-pixel/google-shopping-api): product prices, sellers, discounts, price-drop alerts
 
 ## Questions
 
